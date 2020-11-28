@@ -42,7 +42,7 @@ def home():
 
 @app.route("/<username>")
 def hello_user(username):
-    return "Hi %s your attendance is submitted succefully" %username
+    return "Hi %s your attendance is submitted successfully" %username
 
 
 if __name__ == "__main__" :
